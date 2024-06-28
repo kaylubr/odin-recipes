@@ -1,0 +1,22 @@
+* {
+    color: bisque;  
+    font-family: Garamond, serif;
+}
+
+body {
+    background-color: #222222;  
+}   
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+ul {
+    list-style: none;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+}
