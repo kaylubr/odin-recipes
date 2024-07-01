@@ -1,36 +1,58 @@
 * {
-    color: bisque;  
-    font-family: Garamond, serif;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif, serif;
 }
 
 body {
-    background-color: #3B3B3B;  
+    background-color: #003e29;  
+    margin: 0;
 }   
+
+.container {
+    width: 80%;
+    height: 80%;
+    background-color: #467061;
+    margin: 50px auto 50px;
+    border-radius: 2%;
+}
 
 /* CSS FOR INDEX */
 
-ul .top-container .carrotcake-container li {
+ul .top-container .carrotcake-container li,
+ul .top-container .chicken-container li, 
+ul .bot-container li{
+    text-align: center;
     margin-bottom: 10px;
-}
-
-ul .top-container .chicken-container li {
-    margin-bottom: 10px;
-}
-
-ul .bot-container li {
-    margin-bottom: 10px;
+    font-size: 23px;
+    font-weight: bold;
 }
 
 .carrotcake-container,
 .chicken-container {
     display: inline-block;
     margin: 1em;
+    margin-bottom: 0px;
+}
+
+.pizza-container {
+    display: inline-block;
+}
+
+.top-container {
+    width: 700px;
+    margin: 0 auto 2em;
 }
 
 .bot-container {
-    display: block;
+    width: 300px;
     margin: 0 auto;
+    height: 400px;
 }
+
+#main-list {
+    list-style: none;
+    padding: 0px;
+} 
 
 .index-img {
     width: 300px;
@@ -40,7 +62,9 @@ ul .bot-container li {
 
 h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
+    padding: 25px;
+    color: #e2acbb;
 }
 
 a {
@@ -49,24 +73,9 @@ a {
 
 /* CSS FOR RECIPES */
 
-.container {
-    width: 80%;
-    border: 2px solid bisque;
-    background-color: #222222;
-    margin: 0 auto;
-}
-
 p {
     text-align: center;
-}   
-
-#head {
-    text-align: center;
-}
-
-#main-list {
-    list-style: none;
-}   
+}     
 
 .recipes-imgs {
     display: block;
@@ -89,10 +98,8 @@ p {
     font-size: 20px;
 }
 
-.ing-container {
-    margin: 1em;
-}
-
-.direction-container {
-    margin: 1em;
+.ing-container,
+.direction-container  {
+    margin: 2em;
+    padding-bottom: 2em;
 }
