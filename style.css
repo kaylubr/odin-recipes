@@ -4,8 +4,10 @@
 }
 
 body {
-    background-color: #222222;  
+    background-color: #3B3B3B;  
 }   
+
+/* CSS FOR INDEX */
 
 ul .top-container .carrotcake-container li {
     margin-bottom: 10px;
@@ -45,13 +47,13 @@ a {
     text-decoration: none;
 }
 
-h3 {
-    font-size: 40px;
-    padding-top: 20px;
-}
+/* CSS FOR RECIPES */
 
-div {
-    text-align: center;
+.container {
+    width: 80%;
+    border: 2px solid bisque;
+    background-color: #222222;
+    margin: 0 auto;
 }
 
 p {
@@ -65,3 +67,32 @@ p {
 #main-list {
     list-style: none;
 }   
+
+.recipes-imgs {
+    display: block;
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.description {
+    text-align: center;
+}
+
+.head-container {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.head-container p {
+    font-size: 20px;
+}
+
+.ing-container {
+    margin: 1em;
+}
+
+.direction-container {
+    margin: 1em;
+}
