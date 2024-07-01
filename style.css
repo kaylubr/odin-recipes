@@ -7,6 +7,35 @@ body {
     background-color: #222222;  
 }   
 
+ul .top-container .carrotcake-container li {
+    margin-bottom: 10px;
+}
+
+ul .top-container .chicken-container li {
+    margin-bottom: 10px;
+}
+
+ul .bot-container li {
+    margin-bottom: 10px;
+}
+
+.carrotcake-container,
+.chicken-container {
+    display: inline-block;
+    margin: 1em;
+}
+
+.bot-container {
+    display: block;
+    margin: 0 auto;
+}
+
+.index-img {
+    width: 300px;
+    height: 200px;
+    border: 1px groove bisque;
+}
+
 h1 {
     text-align: center;
     font-size: 40px;
@@ -32,3 +61,7 @@ p {
 #head {
     text-align: center;
 }
+
+#main-list {
+    list-style: none;
+}   
